@@ -1,0 +1,1327 @@
+/* Styling the page for All Common Desktop and Laptop Screens Start*/
+/* Styling the page for All Common Desktop and Laptop Screens Start*/
+
+/* Styling the Body and the Headrow and Body start */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.headrow
+{
+  
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    position: fixed;
+    
+}
+/* Styling the Body and the Headrow and Body end */
+
+/* logo in the first navigationbar */
+.logo
+{
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+/* Styling the 1st navigationbar start */
+.navbar
+{
+    padding-right: 30px;
+    z-index:5;
+    
+}
+
+.navbar ul
+{
+  
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.navbar ul li
+{
+    
+    list-style: none;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    padding: 18px 20px;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.navbar ul li a:hover
+{
+    background-color: rgb(245, 89, 28);
+    font-weight: bold;
+}
+/* Styling the 1st navigationbar end */
+
+footer
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,1);
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer p
+{
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+/* Styling the body except the headrow and navigationbar end */
+
+/*index page styling start*/
+.landing
+{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(../images/b1.jpg);
+    display: flex;
+}
+
+.textpart
+{
+    flex:60%;
+}
+.opart
+{
+    position: relative;
+    color: white;
+    padding-left: 5%;
+}
+
+.opart h1
+{
+    font-size: 60px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-top:20%;
+}
+
+.opart h4
+{
+    font-family: 'Inconsolata', monospace;
+    padding-top:10px;
+    font-size: 20px;
+}
+
+.opart button
+{
+    margin-top: 30px;
+    height: 50px;
+    width: 185px;
+    background-color: rgb(245, 89, 28);
+    font-size: 15px;
+    border: none;
+    color: white;
+}
+
+.opart button:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.imgpart
+{
+    flex: 40%;
+    position: relative;
+}
+
+.imgpart img
+{
+    height: 500px;
+    width: 500px;
+    padding-top: 10%;
+}
+
+.overlay
+{
+    background-color: rgba(0,0,0,0.65);
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+
+.words
+{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.words h3
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.words p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+    font-size: 17px;
+    padding-top: 5px;
+    line-height: 25px;
+    color: black;
+}
+
+.review
+{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#rwh
+{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.s1,.s2,.s3
+{
+    background-color: rgb(245, 89, 28);
+    height:300px;
+    width:300px;
+}
+
+.im img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+}
+
+.rw
+{
+    padding: 5px;
+    text-align: center;
+    color:white;
+    
+}
+
+.rw p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+
+/*index page styling end*/
+
+/*about page styling start*/
+
+
+.containerport h2
+{
+    color: black;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+
+#leftin
+{
+    margin-left: 5%;
+}
+
+.textport
+{
+    font-style: normal;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 1.5vh;
+}
+
+
+#oneport
+{
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left: 5%;
+    margin-left: 1%;
+    text-align: justify;
+    margin-top: 1%;
+    font-size: 17px;
+    line-height: 25px;
+   
+}
+
+.img1port
+{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: 5%;
+    padding-left: 12%;
+    margin-bottom: 7%;
+}
+
+.holder
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#sha
+{
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-top: 5vh;
+    letter-spacing: 2px;
+}
+
+.slinkholder
+{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vh;
+    
+}
+
+.slinkholder .slinkabout
+{
+    width: 50px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    box-shadow: 2px 2px 5px 2px rgb(245, 89, 28);
+    border-radius: 50px;
+}
+
+ .slinkholder .slinkabout:hover
+{
+    cursor: pointer;
+    background-color: rgb(245, 89, 28);
+    box-shadow: none;
+    
+}
+
+#leftingabout
+{
+    margin-left: 20px;
+}
+
+.slinkholder .slinkabout p
+{
+    font-size: 25px;
+    color: white;
+    padding: 12px;
+}
+
+
+/*about page styling end*/
+
+/*contact page style start*/
+.concontact
+{
+    background-image: url("../images/b2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.overlaycon
+{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.concactcon
+{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;   
+    padding-top: 35vh;
+}
+
+.underdiv1, .underdiv2, .underdiv3
+{
+    flex: 30%;
+    position: relative;
+   
+}
+
+.underdiv3, .underdiv2 , .underdiv1 h3, p
+{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5px;
+    font-size: 20px;
+    
+}
+
+.underdiv3, .underdiv2 , .underdiv1 h3
+{
+    font-size: 25px;
+    margin-bottom: 2vh;
+    font-family: 'Sansita Swashed', cursive;
+    letter-spacing: 2px;
+}
+
+.underdiv3 .holdingform
+{
+    float: left;
+    width: 6vw;
+    height: auto;
+    margin-left: 40%;
+    
+}
+
+.underdiv3 .holdingform input{
+    width: 195px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+.underdiv3 .holdingform input::placeholder
+{
+    text-align: center;
+    
+}
+
+#emailcon, #smscon
+{
+    margin-top: 3vh;
+}
+
+#smscon
+{
+    margin-bottom: 2vh;
+    height: 60px;
+    width: 200px;
+}
+
+.underdiv3 form button
+{
+    width: 122px;
+    height: 40px;
+    margin-left: 2%;
+    border: none;
+    margin-top: 1vh;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: rgb(245, 89, 28);
+}
+
+.underdiv3 form button:hover
+{
+   font-weight: bold;
+}
+
+/*contact page style end*/
+
+/*empty cart start*/
+.ecart
+{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(../images/b3.jpg);
+}
+
+.ecartrest
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.ecartrest h3
+{
+    padding-top: 30vh;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+}
+
+.ecartrest button
+{
+    margin-top: 30px;
+    height: 50px;
+    width: 185px;
+    background-color: rgb(245, 89, 28);
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+.ecartrest button:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+/*empty cart end*/
+
+/*profile page start*/
+.containerprof
+{
+    background-image: url("../images/b4.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.profh
+{
+    padding-top: 8vh;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    opacity: 0;
+}
+
+.accountprof
+{
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    margin: 2%;
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+}
+
+.accountprof .subivprof1
+{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 2vh;
+    text-align: center;
+}
+.accountprof .subivprof1 img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.accountprof .subivprof1 h5
+{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.accountprof .subivprof2 
+{
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.accountprof .subivprof2 button
+{
+    width: 70%;
+    height: 40px;
+    margin-top: 12px;
+    background-color: rgb(245, 89, 28);
+    color: white;
+    font-size: 19px;
+    font-family: 'Inconsolata', monospace;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: none;
+    margin-top: 3vh;
+}
+
+.accountprof .subivprof2 button:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/*profile page end*/
+
+/*checkout page start*/
+.wrappercout
+{
+    box-sizing: border-box;
+    height: 105vh;
+    width: 100%;
+    background-color: rgb(245, 89, 28,0.65);
+    padding-top: 5%;
+}
+.rowcout {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .col-25cout {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50cout {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75cout {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25cout,
+  .col-50cout,
+  .col-75cout {
+    padding: 0 16px;
+  }
+  
+  .containercout {
+    background-color: #e2e2e2;
+    padding: 5px 20px 15px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top:0;
+  }
+  
+  .containercout input[type=text] {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.288);
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-containercout {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  span.pricecout {
+    float: right;
+    color: grey;
+  }
+
+  .placeorderbtncout
+{
+    
+    margin-top: 30px;
+    height: 50px;
+    width: 185px;
+    background-color: rgb(245, 89, 28);
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+.placeorderbtncout:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*checkout page end*/
+
+/*login page start*/
+.logindiv
+{
+    background-image: url("../images/b5.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#ermgs,#ermgssign
+{
+    padding-top: 2vh;
+    text-align: center;
+    color: red;
+}
+
+.signindiv
+{
+    background-image: url("../images/b5.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+
+.overlaysign
+{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 120%;
+    position: absolute;
+}
+
+.formholder
+{
+
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: gray;
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.imgcontainer
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgcontainer img
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.container label
+{
+    font-size: 20px;
+    
+    padding-left: 10%;
+    
+}
+
+.container input
+{
+    width: 80%;
+    height: 30px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: -1%;
+    font-family: 'Inconsolata', monospace;
+    border: none;
+    padding-left: 10px;
+}
+
+#downit
+{
+    padding-top: 20px;
+}
+
+.container button
+{
+    width: 82.8%;
+    height: 45px;
+    margin-left:10%;
+    margin-right:8%;
+    margin-top: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    background-color: rgb(245, 89, 28);
+    color:white;
+    border:none;
+}
+
+.container button:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signinpart
+{
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.signinpart h5
+{
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.signinpart h5 a
+{
+    text-decoration: none;
+    color: rgb(245, 89, 28);
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    padding-top:2px;
+}
+
+.signinpart h5 a:hover
+{
+    text-shadow: 1px 1px 2px white;
+}
+
+/*login page end*/
+
+/*product and cart page start*/
+.productholder
+{
+    height:auto;
+    width: 100%;
+
+}
+
+.productholder h3
+{
+    padding-top: 15vh;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(245, 89, 28);
+}
+
+.productholder table
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.productholder table tr
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-left: 10%;
+    border: 2px solid gray;
+}
+
+
+.productholder table tr td h6
+{
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    padding-left: 5px;
+    padding-top: 5px;
+}  
+
+.productholder table tr td p
+{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+#prospecing
+{
+    margin-left: 5px;
+}
+
+#downingpro
+{
+    margin-top: 30px;
+}
+
+/*product and cart page end*/
+
+/* Styling the page for All Common Desktop and Laptop Screens end*/
+/* Styling the page for All Common Desktop and Laptop Screens end*/
+
+
+/* Styling the page for All Common 900px width Devices Start*/
+/* Styling the page for All Common 900px width Devices Start*/
+
+/* media query for 900px Devices*/
+@media only screen and (max-width: 900px)
+{
+    .menubar_holder
+    {
+        margin-right: 20px;
+        margin-top: 5px;
+        z-index: 1;
+        opacity: 1;
+        float: right;
+       
+    }
+
+    .menubar_holder:hover
+    {
+        cursor: pointer;
+    }
+
+    .menubar_holder .menubar
+    {
+        width: 30px;
+        height: 1.5px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 42%;
+        z-index: 3;
+    }
+
+    .menubar_holder .menubar::before,
+    .menubar_holder .menubar::after{
+
+        content: '';
+        position: absolute;
+        z-index: 1;
+        width: 30px;
+        height: 1.5px;
+        background-color: white;
+        margin-top: -10px;
+        border-radius: 42%;
+
+    }
+
+    .menubar_holder .menubar::after{
+        margin-top: 10px;
+
+    }
+
+    .menubar:hover
+    {
+        opacity: 1;
+    }
+
+    .menubar:hover .menubar::before
+    {
+        transform: translate(-50%, -50%) rotate(45deg);
+        transition-duration: 0.4s;
+    }
+
+    .menubar:hover .menubar::after
+    {
+        transform: translate(-50%, -50%) rotate(-45deg);
+        transition-duration: 0.4s;
+    }
+
+    .navbar
+    {
+        margin-top: 50px;
+        width: 10%;
+        height: 100vh;
+        background-color: rgb(245, 89, 28);
+        margin-left: -100%;
+        z-index: 15;
+    }
+    .navbar ul
+    {
+        display: block;
+        text-align: center;
+        padding-top: 20vh;
+        z-index: 15;
+    }
+
+    .navbar ul li
+    {
+        padding-bottom: 50px;
+    }
+
+    .navbar ul li a
+    {
+        font-size: 20px;
+    }
+
+    .landing
+    {
+        flex-direction: column;
+    }
+
+    .opart
+    {
+        padding-left: 0;
+        text-align: center;
+        
+    }
+
+    .opart h1
+    {
+        font-size: 55px;
+        margin-top:40%;
+    }
+
+    .imgpart
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .imgpart img
+    {
+        height: 500px;
+        width: 700px;
+        padding-top: 0;
+
+    }
+
+    .im img
+    {
+        width: 220px;
+        height: 220px;
+        border-radius: 120px;
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .s1,.s2,.s3
+    {
+        height:450px;
+        width:450px;
+    }
+
+    #leftin
+    {
+        margin-top: 3%;
+        margin-left:0;
+    }
+
+    .review
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .concactcon
+    {
+        flex-direction: column;
+        padding-top: 10vh;
+    }
+
+    .underdiv2, .underdiv3
+    {
+        margin-top: 3vh;
+    }
+
+    .underdiv3 .holdingform
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left:45%;
+    }
+
+    .underdiv2 iframe
+    {
+        width: 80%;
+        height: 350px;
+    }
+
+    .concontact
+    {
+        height: 140vh;
+    }
+
+    .underdiv3 .holdingform input
+    {
+        width: 255px;
+        height: 30px;
+    }
+
+    #smscon
+    {
+        margin-bottom: 2vh;
+        height: 60px;
+        width: 255px;
+    }
+
+    #overover
+    {
+        position: absolute;
+        width:100%;
+        height: 140vh;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    .accountprof
+    {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .containercout 
+    {
+        margin-top:10vh;
+      
+    }
+
+      .formholder
+    {
+
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .productholder table tr
+    {
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+
+    }
+
+    .productholder table tr td img
+    {
+        height: 400px;
+        width: 350px;
+    }
+
+
+
+}
+
+/* media query for 480px Devices */
+@media only screen and (max-width:480px)
+{
+    .menubar_holder
+    {
+        margin-right: 20px;
+        margin-top: 5px;
+        z-index: 1;
+        opacity: 1;
+    }
+    .navbar
+    {
+        margin-top: 50px;
+        width: 10%;
+        height: 100vh;
+        background-color:  rgb(245, 89, 28);
+        margin-left: -100%;
+        z-index: 15;
+    }
+    .navbar ul
+    {
+        display: block;
+        text-align: center;
+        padding-top: 12vh;
+        margin-left: 5%;
+        z-index: 15;
+    }
+
+    .navbar ul li
+    {
+        padding-bottom: 35px;
+    }
+
+    .navbar ul li a
+    {
+        font-size: 20px;
+    }
+
+    .imgpart img
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    .s1,.s2,.s3
+    {
+        height:300px;
+        width:300px;
+    }
+
+
+    .im img
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 80px;
+        margin-left: 75px;
+        margin-right: 75px;
+        padding-top: 10px;
+    }
+
+    .opart h1
+    {
+        margin-top: 20%;
+        font-size: 45px;
+    }
+
+    .review
+    {
+        margin-bottom: 10%;
+    }
+
+    .underdiv3 .holdingform input
+    {
+        width: 165px;
+        height: 30px;
+    }
+
+    #smscon
+    {
+        margin-bottom: 2vh;
+        height: 60px;
+        width: 165px;
+    }
+
+    .underdiv2 iframe
+    {
+        width: 90%;
+        height: 300px;
+    }
+
+    .accountprof
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .formholder
+    {
+
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .ecartrest h3
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .productholder table tr
+    {
+        width:95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 350px;
+
+    }
+
+    .productholder table tr td img
+    {
+        height: 350px;
+        width: 200px;
+    }
+
+    .productholder table tr td h6
+    {
+        font-size: 20px;
+        padding-left: 2.5px;
+        padding-top: 4px;
+    }  
+
+    .productholder table tr td p
+    {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    #prospecing
+    {
+        width: 120px;
+        margin-left: 8px;
+    }
+
+}
+
+
+
+
+
